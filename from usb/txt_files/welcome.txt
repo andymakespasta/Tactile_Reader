@@ -1,0 +1,9 @@
+Serial_Reader_V0.4 Serial Reader is a really uninventive name. At least Eagleman and Novitch had fun with acronyms when naming VEST. Oh, whatever. The quick brown dog jumped over the lazy fox. yip yip, what thes the man think? Oh really? eeeeeeehhhhh???? ! Howdydoo!! comma storm incoming! prepare for cover! repeat; repeat; repeat. 
+
+Line jump there, did you expect that? The value of Pi is 3.1415926, 14285729354 numver string 142,354,645 153.64 how should we display numbers? what if they're seperated with spaces? I suppose we should take numbers as words, and simply read them from the left.
+
+Also, can we design filters that can modify how the words are read to reflect timing, rythm or weird combinations?
+
+Hmmmmm.
+
+Save it for another day.

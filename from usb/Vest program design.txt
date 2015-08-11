@@ -1,0 +1,49 @@
+Vest programming
+-------------------overview------------------------------------------------------
+[computer side]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+options.json - com port, letter speed, syllable speed, punctuation speed, period speed, linebreak speed, general speed
+vestparse.exe (python->window?) - edit options, choose text file, remember textfile position
+	-running: skip forward, go back, pause, speed up, speed down
+
+read letter->wait->send letter->read letter
+	
+
+[arduino side]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+initiate by trying to read com ports
+	on fail->buzz all /flash 3 times and exit
+
+buzz all ports in order, then in reverse (startup check)
+	""function maps buzz number to GPIO number
+	"buzz"function (object) stores speed profiles of (short sharp buzz, buzz, soft buzz, sharp buzz, sparp/soft long buzz)
+
+send message "ready" to computer
+get "confirm"
+	on fail buzz all flash 3 times as usual
+--loop--
+get com port input, call function for corresponding key
+function maps keys to consecutive "buzz" calls
+
+
+[physical vest]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+should be very breathable material, maybe even holed?
+should be flexible enough to tightly bind
+cloth used for tights?
+USB extension cord!!!
+board in front, battery in front pocket to balance weight
+main wires around bottom of vest, with verticle rows.
+horizontal tight, vertically less so.
+-----------------------------questions-----------------------------
+size of character set?
+character set that can repersent most languages?
+phonetics for chinese/japanese?
+phonetics for 
+-----------------------------to do list----------------------------
+buy vibrator parts
+find consonant frequencies
+map out possible characters, with emphasis on vowels
+	vowels should cover outside, so user knows full area
+	vowels should be distinct and easy to tell
+	vowel combinations should not overlap too much
+	similiar consonants should be mirror images
+
+map out skin sensitivity?

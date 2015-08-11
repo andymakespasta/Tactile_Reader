@@ -1,0 +1,5 @@
+Novel average word count: 60k
+War and Peace: 544k 
+	txt-UTF8 = 3.1MB
+	EPUB = 1.3MB!?!
+Average RAM size: 2GB?
